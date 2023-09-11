@@ -35,9 +35,9 @@ if(vex.content.includes("discord.gg")){
 
 if(vex.channel.type === "dm"){ 
 if(vex.author.id===client.user.id) return; 
-vex.author.send("https://discord.gg/9sebTXTRFR")
+vex.author.send("https://discord.gg/")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
-let hama1 = client.channels.cache.get("989261716598689942")//id bashe reklam
+let hama1 = client.channels.cache.get("1147157524424970291")//id bashe reklam
 dot.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
@@ -91,7 +91,7 @@ client.on("message", msg => {
   }
 });
 
-const channelid = "989261728112062534"//id channele vc
+const channelid = "1147157524424970291"//id channele vc
 client.on("ready", () => {
     const channel = client.channels.cache.get(channelid);
     if (!channel) return console.error("The channel does not exist!");
@@ -103,4 +103,4 @@ client.on("ready", () => {
 });
 
 
-client.login("Token Yo Bot")
+client.login("MTE1MDc1MjkyMzQzODAyNjc4Mw.GICA90.4c-teiEAGeb3ltNKmzqibwg63GxJkk43NGjzLc")
